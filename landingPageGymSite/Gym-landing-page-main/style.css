@@ -1,0 +1,169 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background: url("gymmodel.jpeg");
+    font-family: 'Baloo 2', cursive;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+
+}
+.left img{
+    width: 90px;
+    filter: invert();
+    position: relative;
+
+}
+.left div {
+    text-align: center;
+    line-height: 4px;
+    font-size: 18px;
+}
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+.right{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+}
+.btn{
+    margin: 1px 10px;
+    background-color: black;
+    color: white;
+    padding: 7px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(40, 39, 39);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 21px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.container{
+    border: 2px solid white;
+    margin: 90px 60px;
+    padding: 70px;
+    width: 33%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 11px;
+    border: 2px solid black;
+    margin: 8px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+}
+
+footer{
+    background: #333;
+    height: auto;
+    width: 100vw;
+    font-family: 'Baloo 2', cursive;
+    padding: top 40px;
+    color: #fff;
+}
+
+.footer-content{
+   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    justify-content: center;
+
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.socials li{
+    margin: 0 10px;
+
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 2.1rem;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #333;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+}
